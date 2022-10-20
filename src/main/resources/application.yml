@@ -1,0 +1,10 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+
+minio:
+  access:
+    name: user
+    secret: password
+  url: http://localhost:9000

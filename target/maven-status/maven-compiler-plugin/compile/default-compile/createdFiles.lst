@@ -1,0 +1,7 @@
+org/example/task/Task3.class
+org/example/task/Task2.class
+org/example/config/MinioConfig.class
+org/example/util/FileUtils.class
+org/example/controller/Controller.class
+Application.class
+org/example/util/MinioUtils.class

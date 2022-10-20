@@ -1,0 +1,14 @@
+version: '2.1'
+
+services:
+  minio:
+    image: bitnami/minio:latest
+    expose:
+      - 9000
+      - 9001
+    ports:
+      - 9000:9000
+    environment:
+      MINIO_ROOT_USER: "user"
+      MINIO_ROOT_PASSWORD: "password"
+      MINIO_DEFAULT_BUCKETS: "default"
